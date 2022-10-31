@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+  <title>Hands of Time</title>
+</head>
+<body>
+  <style>
+    code {
+      font-family: monospace;
+      white-space: pre;
+      width: 600px;
+      display: block;
+    }
+
+    code > p {
+      background: #000000;
+      color: #bbbbbb;
+      word-wrap: break-word;
+      box-decoration-break: clone;
+      padding: .1rem .3rem .2rem;
+      border-radius: .2rem;
+    }
+  </style>
+
+  <h1>The flag is not here, good eye though :)</h1>
+  <p>As a reward here is some insight into how time operates...</p>
+
+  <code>
+    <p>
+    server.post('/key', async function (req, res) {
+      try {
+        const { timestamp } = req.body
+    
+        const now = new Date(timestamp)
+    
+        const rawKey = handsOfTime(now.getHours(), now.getMinutes())
+    
+        const encrypted = AES.encrypt(flag.concat(flag), rawKey.toString(), {
+          mode: ECBMode,
+          padding: PKCS7
+        })
+    
+        res.status(200).json({ key: encrypted.toString() })
+      } catch (err) {
+        console.error(err)
+        res.sendStatus(500)
+      }
+    })
+    </p>
+  </code>
+  
+</body>

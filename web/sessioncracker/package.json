@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.1"
+  },
+  "name": "exploits",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon sessioncracker.js"
+  },
+  "author": "Jaydon Reap",
+  "license": "ISC",
+  "description": "A Collection of CTF problems packaged into one",
+  "devDependencies": {}
+}

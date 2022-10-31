@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "body-parser": "^1.20.1"
+  },
+  "name": "exploits",
+  "version": "1.0.0",
+  "main": "headspace.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node headspace.js"
+  },
+  "author": "Jaydon Reap",
+  "license": "ISC",
+  "description": "Headspace CTF Problem",
+  "devDependencies": {}
+}
