@@ -29,4 +29,4 @@ as the message, so I'll drop that in and see which characters lead to an invalid
 
 So `UDCTF{X0R_is_the_best}` would lead to a key of ```66667679736~61607a`.66i``` so characters 12,16,19,20 need tweaks.
 
-Well all of those are common l33t sp34k spots, swap them out and get `UDCTF{X0R_i5_th3_b35t}` and be aware I might have to tweak `0` to `o`.
+Well all of those are common l33t sp34k spots, swap them out and get `UDCTF{X0R_i5_th3_b35t}` which makes a valid key.  I'll try it and be aware I might have to tweak `0` to `o`.
